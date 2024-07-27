@@ -68,85 +68,8 @@ export default function About() {
         </h2>
       </div>
 
-      {/* <div className="w-full flex flex-col gap-2">
-        <div className="w-full grid grid-cols-3 gap-2">
-          <div className="h-[300px] p-4 rounded-[20px] radial-bg border border-[#251E31] flex justify-center items-center">
-            <span className="text-[32px] font-[600] leading-[120%]">
-              Бид хэрхэн <br /> ажилдаг вэ?
-            </span>
-          </div>
-          <div className="h-[300px] p-4 rounded-[20px] flex flex-col gap-6 radial-bg border border-[#251E31] col-span-2">
-            <span className="text-[28px] font-[600] text-center">Манай баг</span>
-            <div className="w-full">
-              <Swiper
-                modules={[Autoplay]}
-                spaceBetween={20}
-                breakpoints={{
-                  0: { slidesPerView: 1 },
-                  425: { slidesPerView: 2 },
-                  640: { slidesPerView: 3 },
-                  768: { slidesPerView: 4 },
-                  1024: { slidesPerView: 4 },
-                  1440: { slidesPerView: 5 },
-                }}
-                autoplay={{
-                  delay: 2500,
-                  disableOnInteraction: false,
-                }}
-                loop={true}
-                // pagination={{ type: "bullets", clickable: true }}
-              >
-                <SwiperSlide>
-                  <div className="w-full flex justify-center items-end">
-                    <div className="overflow-hidden rounded-[8px] w-[120px] h-[160px] relative border-[#251E31] border-2 gradient-background">
-                      <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                      <Image
-                        src="/members/nyamdavaa.png"
-                        alt="logo"
-                        width={300}
-                        height={400}
-                        className="max-w-full absolute bottom-0"
-                      />
-                      <div className="absolute bottom-0 p-4 z-[2]">
-                        <div className="flex flex-col gap-1">
-                          <span className="font-[600] text-[20px]">
-                            Нямдаваа
-                          </span>
-                          <span className="text-[13px] text-indra-gray leading-[120%]">
-                            Англи хэлний <br /> багш
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                
-              </Swiper>
-            </div>
-          </div>
-        </div>
-        <div className="w-full grid grid-cols-3 gap-2">
-          <div className="h-[280px] p-4 rounded-[20px] radial-bg border border-[#251E31]"></div>
-          <div className="h-[280px] p-4 rounded-[20px] radial-bg border border-[#251E31]"></div>
-          <div className="h-[280px] p-4 rounded-[20px] radial-bg border border-[#251E31]"></div>
-        </div>
-        <div className="w-full grid grid-cols-3 gap-2">
-          <div className="h-[280px] p-4 rounded-[20px] radial-bg border border-[#251E31] col-span-2"></div>
-          <div className="h-[280px] p-4 rounded-[20px] radial-bg border border-[#251E31] flex justify-center items-center">
-            <span className="text-[32px] font-[600]">Манай баг</span>
-          </div>
-        </div>
-      </div> */}
-
       <div className="w-full flex gap-[28px] lg:gap-[56px] xl:items-center mb-[30px] xl:flex-row flex-col">
         <div className="relative w-full xl:min-w-[400px] xl:h-[240px] rounded-[30px] overflow-hidden">
-          {/* <Image
-            src="/team.jpg"
-            alt="team"
-            layout="fill"
-            objectFit="cover"
-            className="object-cover"
-          /> */}
           <Image
             src="/team.jpg"
             alt="team"
@@ -157,270 +80,14 @@ export default function About() {
         </div>
 
         <div className="text-indra-gray text-[20px] md:text-[28px] lg:text-[36px] font-[500] leading-[120%]">
-          Бид{" "}
+          Бид
           <span className="text-[#FFE380]">
-            дэлхийд хүлээн зөвшөөрөгдсөн олон улсын хөтөлбөрөөр{" "}
+            дэлхийд хүлээн зөвшөөрөгдсөн олон улсын хөтөлбөрөөр
           </span>
           чадварлаг шинэ залуу үеийг бэлтгэсээр байна.
         </div>
       </div>
       <div className="w-full radial-bg border border-[#251E31] rounded-[30px] p-8 sm:p-10 flex gap-10 flex-col mt-[30px] items-center">
-        {/* <div className="flex flex-col">
-          <h3 className="text-[26px] font-[600] mb-[10px] leading-[120%] text-nowrap">
-            Манай баг
-          </h3>
-        </div>
-        <div className="flex flex-col gap-3 items-center w-full">
-          <div className="w-full">
-            <Swiper
-              modules={[Autoplay, Pagination]}
-              spaceBetween={20}
-              breakpoints={{
-                0: { slidesPerView: 1 },
-                425: { slidesPerView: 2 },
-                640: { slidesPerView: 4 },
-                768: { slidesPerView: 5 },
-                1024: { slidesPerView: 6 },
-                1440: { slidesPerView: 7 },
-              }}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              loop={true}
-              pagination={{ type: "bullets", clickable: true }}
-            >
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/nyamdavaa.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">Нямдаваа</span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          Англи хэлний багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/byambasambuu.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">
-                          Бямбасамбуу
-                        </span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          Гүйцэтгэх захирал
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/bazarragchaa.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">
-                          Базаррагчаа
-                        </span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          Программ хангамжийн багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/hishigbat.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">Хишигбат</span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          Программ хангамжийн багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/enhjin.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">Энхжин</span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          Программ хангамжийн багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/bilguun.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">Билгүүн</span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          Программ хангамжийн багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/dulguun.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">Дөлгөөн</span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          Программ хангамжийн багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/burentugs.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">
-                          Бүрэнтөгс
-                        </span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          Анимейшний багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/battuvshin.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">
-                          Баттүвшин
-                        </span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          График дизайны багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="w-full flex justify-center items-end">
-                  <div className="overflow-hidden rounded-[8px] w-[130px] h-[170px] relative border-[#251E31] border gradient-background">
-                    <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black to-transparent z-[1]"></div>
-                    <Image
-                      src="/members/hulan.png"
-                      alt="logo"
-                      width={300}
-                      height={400}
-                      className="max-w-full absolute bottom-0"
-                    />
-                    <div className="absolute bottom-0 p-2 z-[2]">
-                      <div className="flex flex-col gap-1">
-                        <span className="font-[600] text-[17px]">Хулан</span>
-                        <span className="text-[12px] text-indra-gray leading-[120%]">
-                          График дизайны багш
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </div> */}
         <div className="flex flex-col">
           <h3 className="text-[26px] font-[600] mb-[10px] leading-[120%] text-center">
             Түгээмэл асуулт, <br className="sm:hidden" /> хариулт
@@ -440,18 +107,19 @@ export default function About() {
             </AccordionHeader>
             <AccordionBody>
               <p className="text-[14px] sm:text-base text-white ml-14		">
-                "Director's Scholarship"-Жил бүр мэргэжил тус бүрээс 1,1 шилдэг
-                оюутанд олгогддог Захирлын нэрэмжит тэтгэлэг.
+                &#34;Director&#39;s Scholarship&#34;-Жил бүр мэргэжил тус бүрээс
+                1,1 шилдэг оюутанд олгогддог Захирлын нэрэмжит тэтгэлэг.
               </p>
               <p className="text-[14px] sm:text-base text-white mt-3.5 ml-14">
-                “Academic Achievement Scholarship”- IELTS, HSK, TOPIC, TOEFL-ын
-                дундаас дээш түвшний оноотой оюутанд олгогддог Ур чадварын
+                &ldquo;Academic Achievement Scholarship&rdquo;- IELTS, HSK,
+                TOPIC, TOEFL-ын дундаас дээш түвшний оноотой оюутанд олгогддог
+                Ур чадварын тэтгэлэг.
+              </p>
+              <p className="text-[14px] sm:text-base text-white mt-3.5 ml-14">
+                &ldquo;Competition Achievement Scholarship&rdquo;-Мэдээлэл зүй,
+                зураг технологи, математикийн дүүрэг болон улсын олимпиадын
+                медальтай оюутанд олгогддог Уралдаан тэмцээний амжилтын
                 тэтгэлэг.
-              </p>
-              <p className="text-[14px] sm:text-base text-white mt-3.5 ml-14">
-                “Competition Achievement Scholarship”-Мэдээлэл зүй, зураг
-                технологи, математикийн дүүрэг болон улсын олимпиадын медальтай
-                оюутанд олгогддог Уралдаан тэмцээний амжилтын тэтгэлэг.
               </p>
             </AccordionBody>
           </Accordion>
