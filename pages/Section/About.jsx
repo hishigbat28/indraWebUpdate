@@ -140,11 +140,18 @@ export default function About() {
 
       <div className="w-full flex gap-[28px] lg:gap-[56px] xl:items-center mb-[30px] xl:flex-row flex-col">
         <div className="relative w-full xl:min-w-[400px] xl:h-[240px] rounded-[30px] overflow-hidden">
-          <Image
+          {/* <Image
             src="/team.jpg"
             alt="team"
             layout="fill"
             objectFit="cover"
+            className="object-cover"
+          /> */}
+          <Image
+            src="/team.jpg"
+            alt="team"
+            fill
+            style={{ objectFit: "cover" }}
             className="object-cover"
           />
         </div>

@@ -93,14 +93,16 @@ export default function Projects() {
           <Marquee direction="right" speed={20}>
             <a href="https://youtu.be/buvyrbQaAF0" target="_blank">
               <div className="relative w-[280px] h-[180px] bg-[#cdcdcd] overflow-hidden rounded-xl mr-4">
-                <Image
+                <img
                   src="/projects/gd3.gif"
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center",
+                  }}
                   alt="Background Image"
                 />
-                {/* Other content can go here */}
               </div>
             </a>
             <a
@@ -119,11 +121,14 @@ export default function Projects() {
               </div>
             </a>
             <div className="relative w-[280px] h-[180px] bg-[#cdcdcd] overflow-hidden rounded-xl mr-4">
-              <Image
+              <img
                 src="/projects/gd2.gif"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "center",
+                }}
                 alt="Background Image"
               />
               {/* Other content can go here */}
@@ -162,11 +167,14 @@ export default function Projects() {
           </Marquee>
           <Marquee speed={20}>
             <div className="relative w-[280px] h-[180px] bg-[#cdcdcd] overflow-hidden rounded-xl mr-4">
-              <Image
+              <img
                 src="/projects/gd1.gif"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "center",
+                }}
                 alt="Background Image"
               />
               {/* Other content can go here */}
@@ -188,11 +196,14 @@ export default function Projects() {
             </a>
             <a href="https://whisper-landing-page.vercel.app/" target="_blank">
               <div className="relative min-w-[280px] h-[180px] bg-[#cdcdcd] rounded-xl mr-4 overflow-hidden">
-                <Image
+                <img
                   src="/projects/gd4.gif"
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center",
+                  }}
                   alt="Background Image"
                 />
                 {/* Other content can go here */}

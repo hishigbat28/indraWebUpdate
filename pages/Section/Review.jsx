@@ -50,10 +50,10 @@ export default function Review() {
                 <div className="relative h-[40px] w-[40px] rounded-full overflow-hidden">
                   <Image
                     src="/review/tuvshintulga.webp"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="left"
                     alt="Avatar Image"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "left" }}
+                    className="object-cover"
                   />
                   {/* Other content can go here */}
                 </div>
@@ -77,10 +77,10 @@ export default function Review() {
                 <div className="relative h-[40px] w-[40px] rounded-full overflow-hidden">
                   <Image
                     src="/review/anhbayr.webp"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="left"
                     alt="Avatar Image"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "left" }}
+                    className="object-cover"
                   />
                   {/* Other content can go here */}
                 </div>
@@ -104,10 +104,10 @@ export default function Review() {
                 <div className="relative h-[40px] w-[40px] rounded-full overflow-hidden">
                   <Image
                     src="/review/anand.webp"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="left"
                     alt="Avatar Image"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "left" }}
+                    className="object-cover"
                   />
                   {/* Other content can go here */}
                 </div>
@@ -133,10 +133,10 @@ export default function Review() {
                 <div className="relative h-[40px] w-[40px] rounded-full overflow-hidden">
                   <Image
                     src="/review/enhjin.webp"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="left"
                     alt="Avatar Image"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "left" }}
+                    className="object-cover"
                   />
                   {/* Other content can go here */}
                 </div>
@@ -161,10 +161,10 @@ export default function Review() {
                 <div className="relative h-[40px] w-[40px] rounded-full overflow-hidden">
                   <Image
                     src="/review/goomaral.webp"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="left"
                     alt="Avatar Image"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "left" }}
+                    className="object-cover"
                   />
                   {/* Other content can go here */}
                 </div>
@@ -190,10 +190,10 @@ export default function Review() {
                 <div className="relative h-[40px] w-[40px] rounded-full overflow-hidden">
                   <Image
                     src="/review/aminhuu.webp"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="left"
                     alt="Avatar Image"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "left" }}
+                    className="object-cover"
                   />
                   {/* Other content can go here */}
                 </div>
