@@ -71,7 +71,7 @@ export default function About() {
       <div className="w-full flex gap-[28px] lg:gap-[56px] xl:items-center mb-[30px] xl:flex-row flex-col">
         <div className="relative w-full xl:min-w-[400px] xl:h-[240px] rounded-[30px] overflow-hidden">
           <Image
-            src="/team.jpg"
+            src="/zuragindra.png"
             alt="team"
             fill
             style={{ objectFit: "cover" }}
@@ -80,11 +80,11 @@ export default function About() {
         </div>
 
         <div className="text-indra-gray text-[20px] md:text-[28px] lg:text-[36px] font-[500] leading-[120%]">
-          Бид
+          Бид&nbsp;
           <span className="text-[#FFE380]">
-            дэлхийд хүлээн зөвшөөрөгдсөн олон улсын хөтөлбөрөөр
+            дэлхийд хүлээн зөвшөөрөгдсөн олон улсын хөтөлбөрөөр{" "}
           </span>
-          чадварлаг шинэ залуу үеийг бэлтгэсээр байна.
+          &nbsp; чадварлаг шинэ залуу үеийг бэлтгэсээр байна.
         </div>
       </div>
       <div className="w-full radial-bg border border-[#251E31] rounded-[30px] p-8 sm:p-10 flex gap-10 flex-col mt-[30px] items-center">
